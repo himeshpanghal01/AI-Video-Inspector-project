@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type, ThinkingLevel } from "@google/genai";
 
-const getAI = () => new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const getAI = () => new GoogleGenAI({ apiKey: process.env.API_KEY || 'AIzaSyBf1AvpdNOkPqkrzwKyTyKTeypkD69ohoQ' });
 
 export const analyzeVideo = async (videoBase64, mimeType, scanType = 'deep') => {
   const ai = getAI();
