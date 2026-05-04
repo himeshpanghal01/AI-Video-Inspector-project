@@ -1,0 +1,7 @@
+{
+  "name": "Remix: AI CCTV Video Inspector",
+  "description": "A high-performance multimodal video analysis tool for security footage, offering automated crowd metrics, action recognition, and natural language querying.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
